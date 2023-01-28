@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!--Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="Assets/CSS/Nike.css"  >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+    <title>Nike Clone</title>
+</head>
+<body>
+<!--HEADER-->
+    <header>
+        <a href="Nike.html" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="65" viewBox="0 0 192.756 192.756">
+            <path fill="#fff" fill-opacity="0" d="M0 0h192.756v192.756H0V0z"/>
+            <path d="M42.741 71.477c-9.881 11.604-19.355 25.994-19.45 36.75-.037 4.047 1.255 7.58 4.354 10.256 4.46 3.854 9.374 5.213 14.264 5.221 7.146.01 14.242-2.873 19.798-5.096 9.357-3.742 112.79-48.659 112.79-48.659.998-.5.811-1.123-.438-.812-.504.126-112.603 30.505-112.603 30.505a24.771 24.771 0 0 1-6.524.934c-8.615.051-16.281-4.731-16.219-14.808.024-3.943 1.231-8.698 4.028-14.291z"/>
+        </svg>
+        </a>
+        
+        <ul class="navbar">
+            <li class="men">
+                <a>Men</a>
+                <ul class="dropdown">
+                    <li><a href="">New</a></li>
+                    <li><a href="">Shoes</a></li>
+                    <li><a href="">Clothing</a></li>
+                    <li><a href="">Sports</a></li>
+                </ul>
+            </li>
+
+            <li class="women">
+                <a>Women</a>
+                <ul class="dropdown">
+                    <li><a href="">New</a></li>
+                    <li><a href="">Shoes</a></li>
+                    <li><a href="">Clothing</a></li>
+                    <li><a href="">Sports</a></li>
+                </ul>
+            </li>
+            <li class="kids">
+                <a>Kids</a>
+                <ul class="dropdown">
+                    <li><a href="">New</a></li>
+                    <li><a href="">Shoes</a></li>
+                    <li><a href="">Clothing</a></li>
+                </ul>
+            </li>
+            <li><a>Sale</a></li>
+            <li><a>SNKRS</a></li>
+        </ul>
+
+        <div class="main1">
+            <a href=""><i class="uil uil-heart"></i></a>
+            <div class="nav__btns">
+                <!-- Theme Change Button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>                
+            </div>
+
+            <div class="bx bx-menu" id="menu-icon"><a><i class="uil uil-bars"></i></a></div>
+        </div>
+    </header>
+
+<!--video-->
+
+    <div class="video">
+        <video controls loop autoplay muted preload="metadata">
+            <source src="Assets/videos/nike shoes ads.mp4" type="Video/mp4">
+        </video>
+    </div>
+
+<!--Content 1-->
+    <div class="content">
+        <div>
+            <h4>Nike Invincible</h4>
+            <h1>FEEL IT TO BELIEVE</h1>
+            <h6>Introducing Lightweight Shoes</h6>
+
+            <div class="btns">
+                <a href="https://www.nike.com/in/" target="_blank">Shop</a>
+                <a href="https://www.youtube.com/watch?v=uf_y4wwpPI8&ab_channel=SiarheiMazganau" target="_blank">Watch <i class="uil uil-play"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="blank1"></div>
+
+    <div class="image">
+        <img src="Assets/Images/Img1.png">
+    </div>
+
+<!--Content 2-->
+    <div class="content">
+        <div>
+            <h4>Nike Free Metcon 4</h4>
+            <h1>FEEL IT TO BELIEVE</h1>
+            <h6>Lift. Jump. Pivot. With a mix of flexibility and stability,</h6>
+            <h6>this training shoe helps you get the most out of every movement.</h6>
+
+            <div class="btns">
+                <a href="https://www.nike.com/in/" target="_blank">Shop</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="img-play">
+        <h2>Shop Nike Tennis</h2>
+    </div>
+
+    <main>
+        <img src="Assets/Images/slideshow/ss1.png" class="slide" alt="">
+        <img src="Assets/Images/slideshow/ss2.png" class="slide" alt="">
+        <img src="Assets/Images/slideshow/ss3.png" class="slide" alt="">
+        <img src="Assets/Images/slideshow/ss4.png" class="slide" alt="">
+        <img src="Assets/Images/slideshow/ss5.png" class="slide" alt="">
+        <img src="Assets/Images/slideshow/ss6.png" class="slide" alt="">
+        <img src="Assets/Images/slideshow/ss7.png" class="slide" alt="">
+        <img src="Assets/Images/slideshow/ss8.png" class="slide" alt="">
+    </main>
+    <div class="naav">
+        <button onclick="goPrev()">
+            <i class="uil uil-arrow-circle-left"></i>
+        </button>
+        <button onclick="goNext()">
+            <i class="uil uil-arrow-circle-right"></i>
+        </button>
+    </div>
+
+    <div class="img-play">
+        <h2>Featured</h2>
+    </div>
+    <div class="image">
+        <img src="Assets/Images/Img3.png">
+    </div>
+    <div class="content">
+        <div>
+            <h1>JORDAN X PARIS SAINT-GERMAIN</h1>
+            <h6>The new Jordan x Paris Saint Germain Collection draws on the light that Paris shines</h6>
+
+            <div class="btns">
+                <a href="https://www.nike.com/in/" target="_blank">Shop</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="img-play">
+        <h2>Trending</h2>
+    </div>
+    <div class="image">
+        <img src="Assets/Images/Img2.png">
+    </div>
+    <div class="content">
+        <div>
+            <h1>BOLD BEGINNINGS</h1>
+            <h6>Introducing the Alate sport cloths, a natural fit for first-time cloths.</h6>
+
+            <div class="btns">
+                <a href="https://www.nike.com/in/w/paris-saint-germain-aurdi" target="_blank">Shop</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="blank1"></div>
+
+<!--Footer-->
+<footer>
+    <div class="content">
+      <div class="left box">
+        <div class="upper">
+          <div class="topic">FIND A STORE</div>
+          <div class="topic">BECOME A MEMBER</div>
+          <div class="topic">SIGN UP FOR EMAIL</div>
+          <div class="topic">SEND US FEEDBACK</div>
+          
+        </div>
+        <div class="lower">
+         
+          <div class="email">
+            <div class="topic">Contact</div>
+            <a href="#">nike@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="middle box">
+        <div class="topic">GET HELP</div>
+        <div><a href="https://www.nike.com/in/help/a/india-consumer-care-policy">Order Status</a></div>
+        <div><a href="https://www.nike.com/in/help/a/india-consumer-care-policy">Delivery</a></div>
+        <div><a href="#">Return</a></div>
+        <div><a href="#">Payment Options</a></div>
+        <div><a href="https://www.nike.com/in/help/a/india-consumer-care-policy">Contact Us On Nike.com Inquiries</a></div>
+        <div><a href="https://www.nike.com/in/help/a/india-consumer-care-policy">Contact Us On All Other Inquiries</a></div>
+      </div>
+      <div class="right box">
+        <div class="topic">Nike</div>
+        <form action="#">
+          <input type="text" placeholder="Enter your email address">
+          <input type="submit" name="" value="Send">
+          <div class="media-icons">
+            <a href="https://www.facebook.com/nike/" target="_blank"><i class="uil uil-facebook"></i></a>
+            <a href="https://www.instagram.com/nike/" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+            <a href="https://twitter.com/nike" target="_blank"><i class="uil uil-twitter"></i></a>
+            <a href="https://www.youtube.com/user/NIKE" target="_blank"><i class="uil uil-youtube"></i></a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>LinkCode Competion NIKE-CLONE</p>
+    </div>
+  </footer>
+
+    <script type="text/javascript" src="Assets/JS/script.js"></script>
+</body>
+</html>
