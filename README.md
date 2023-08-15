@@ -1,4 +1,4 @@
-<img align="right" width="40%" src="https://static.vecteezy.com/system/resources/previews/010/994/236/non_2x/nike-logo-white-with-name-clothes-design-icon-abstract-football-illustration-with-black-background-free-vector.jpg">
+<img align="right" width="45%" src="https://static.vecteezy.com/system/resources/previews/010/994/236/non_2x/nike-logo-white-with-name-clothes-design-icon-abstract-football-illustration-with-black-background-free-vector.jpg">
 <h2>Nike website clone</h2>
 
 [Visite Site](https://pawar-pratik.github.io/Nike-Clone/)<br>
