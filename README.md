@@ -1,3 +1,4 @@
+<img align="right" width="40%" src="https://1000logos.net/wp-content/uploads/2021/11/Nike-Logo.png">
 <h2>Nike website clone</h2>
 
 [Visite Site](https://pawar-pratik.github.io/Nike-Clone/)<br>
